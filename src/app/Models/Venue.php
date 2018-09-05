@@ -28,7 +28,7 @@ class Venue extends Model
     ];
 	protected $fakeColumns = ['coordinates'];
     protected $casts = [
-		'coordinates' => 'array'
+		'coordinates' => 'string'
 	];
 
     /**
